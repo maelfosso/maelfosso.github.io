@@ -6,4 +6,7 @@ layout: home
 title: Mael FOSSO
 ---
 
+{% include nav.html %}
+{% include header.html %}
+{% include portfolio.html %}
 {% include about.html %}
