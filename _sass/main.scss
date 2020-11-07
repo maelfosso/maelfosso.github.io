@@ -2,6 +2,10 @@
   font-family: "Playfair Display";
   src: url("/assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins/Poppins-Regular.ttf");
+}
 
 * {
   margin: 0;
@@ -38,7 +42,10 @@ body {
   }
 
   section {
-    .title {
+    h1 {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: normal;
       font-size: 110px;
       line-height: 100%;
 
@@ -71,6 +78,18 @@ body {
       border-radius: 50px;
     }
 
+    .title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+
+      color: #FFFFFF;
+    }
+
     article {
       width: 48%;
       margin: auto; 
@@ -79,6 +98,8 @@ body {
         display: grid;
         row-gap: 24px;
         column-gap: 24px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
 
         &>div {
           display: table-cell;
