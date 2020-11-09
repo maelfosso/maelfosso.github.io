@@ -1,0 +1,102 @@
+- name: Guitou
+  description: Real-time analysis and statistics from collected data
+  tools:
+    - ReactJs
+    - Angular
+    - Express (NodeJS)
+    - Python
+    - MongoDB
+    - Docker
+    - Docker Compose
+    - Linux Bash Scripts
+    - Let's encrypt, Certbot
+  repositories: https://gitlab.com/guitou-daco-tool
+  online: https://app.guitou.cm
+
+- name: Earth Diary
+  description: Basic implementation of Facebook web app
+  tools: 
+    - Ruby
+    - Ruby on Rails
+    - PostgreSQL
+    - HTML5
+    - CSS3
+    - Javascript
+  repositories: https://github.com/maelfosso/microverse_ror_final_project
+  online: https://earthdiary.herokuapp.com
+
+- name: Repap
+  description: Handle your favorite hotels
+  tools:
+    - React Js
+    - Ruby on Rails
+    - Python
+    - PostgreSQL
+    - Kubernetes
+  repositories: 
+    # - type: Front-end
+    #   link: https://github.com/maelfosso/repap
+    # - type: Back-end
+    #   link: https://github.com/maelfosso/repap-api
+  online: https://mv-final-repap.herokuapp.com
+
+- name: ShortURL
+  description: Starting point of a app for shorting URL
+  tools:
+    - Typescript
+    - Vue.Js
+    - Express (NodeJS)
+    - MongoDB
+    - Linux Bash Scripts
+    - Docker
+    - Docker Compose
+  repositories: https://github.com/maelfosso/shorturl-startup-files
+
+- name: Bookstore
+  description: Library application in javascript with add book, remove book and change read status functionality
+  tools:
+    - HTML5
+    - CSS3
+    - ReactJs
+  repositories: https://github.com/maelfosso/microverse_js_bookstore
+  online: 
+
+- name: Library
+  description: Library application in javascript with add book, remove book and change read status functionality
+  tools:
+    - HTML5
+    - CSS3
+    - Javascript
+  repositories: https://github.com/maelfosso/microverse_library
+
+- name: Battleship
+  description: 
+  tools:
+    - HTML5
+    - CSS3
+    - Javascript
+  repositories: https://github.com/maelfosso/microverse_js_battleshp
+
+- name: Calculator
+  description: 
+    - Simple Calculator
+    - All the simple operations are implemented
+  tools:
+    - HTML5
+    - CSS3
+    - Javascript
+    - ReactJs
+  image: assets/images/calculator.png
+  online: https://mverse-js-calculator.herokuapp.com/
+  repositories: https://github.com/maelfosso/microverse_js_calculator
+
+- name: Weather App
+  description: 
+    - Search for a specific location and toggle displaying the data in Fahrenheit or Celsius
+    - The look of the page change based on the data fetched through the weather API, maybe by changing the color of the background or by adding images that describe the weather.
+  tools:
+    - HTML5
+    - CSS3
+    - Javascript
+  image: assets/images/weather_app.png
+  repositories: https://github.com/maelfosso/microverse_js_weather_app
