@@ -53,28 +53,27 @@
   repositories: https://github.com/maelfosso/shorturl-startup-files
 
 - name: Bookstore
-  description: Library application in javascript with add book, remove book and change read status functionality
+  description: 
+    - Small Library application
+    - With features like add a book, remove a book and change read status of a book.
   tools:
     - HTML5
+    - Javascript
     - CSS3
     - ReactJs
+  image: assets/images/bookstore.png
   repositories: https://github.com/maelfosso/microverse_js_bookstore
-  online: 
-
-- name: Library
-  description: Library application in javascript with add book, remove book and change read status functionality
-  tools:
-    - HTML5
-    - CSS3
-    - Javascript
-  repositories: https://github.com/maelfosso/microverse_library
+  online: https://maelfosso.github.io/microverse_js_bookstore/
 
 - name: Battleship
   description: 
+    - Implementation of the classic game Battleship
+    - It is played on ruled grids (paper or board) on which each player's fleet of ships (including battleships) are marked. The locations of the fleets are concealed from the other player. Players alternate turns calling "shots" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet.
   tools:
     - HTML5
     - CSS3
     - Javascript
+  image: assets/images/battleship.png
   repositories: https://github.com/maelfosso/microverse_js_battleshp
 
 - name: Calculator
