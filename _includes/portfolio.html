@@ -1,43 +1,45 @@
 <section id="portfolio" class="portfolio">
-  <div>
-    <div class="step">
-      <span class="step-number">02</span>
-    </div>
+  <div class="content">
     <div>
-      <span class="step-title">My recent works</span>
-      <h1>Portfolio</h1>
-    </div>
-  </div>
-  <article>
-    {% for data in site.data.projects %}
-    <div class="project">
-      <div class="head">
-        <div class="title">{{ data.name }}</div>
-        <div class="tools">
-        {% for tool in data.tools %}
-          <span>{{ tool }}</span>
-        {% endfor %}
-        </div>
+      <div class="step">
+        <span class="step-number">02</span>
       </div>
-      <div class="details">
-        <div class="screenshots">
-          <img src="{{ data.image }}"/>
-        </div>
-        <div class="description">
-          <div>
-          {% for desc in data.description %}
-            <p>{{ desc }}</p>
+      <div>
+        <span class="step-title">My recent works</span>
+        <h1>Portfolio</h1>
+      </div>
+    </div>
+    <article>
+      {% for data in site.data.projects %}
+      <div class="project">
+        <div class="head">
+          <div class="title">{{ data.name }}</div>
+          <div class="tools">
+          {% for tool in data.tools %}
+            <span>{{ tool }}</span>
           {% endfor %}
           </div>
-          <div class="links">
-            {% if data.online %}
-            <a href="{{ data.online }}" target="_blank">See live</a>
-            {% endif %}
-            <a href="{{ data.repositories }}" target="_blank">See sources</a>
+        </div>
+        <div class="details">
+          <div class="screenshots">
+            <img src="{{ data.image }}"/>
+          </div>
+          <div class="description">
+            <div>
+            {% for desc in data.description %}
+              <p>{{ desc }}</p>
+            {% endfor %}
+            </div>
+            <div class="links">
+              {% if data.online %}
+              <a href="{{ data.online }}" target="_blank">See live</a>
+              {% endif %}
+              <a href="{{ data.repositories }}" target="_blank">See sources</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    {% endfor %}
-  </article>
+      {% endfor %}
+    </article>
+  </div>
 </section>

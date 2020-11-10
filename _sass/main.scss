@@ -68,9 +68,12 @@ h1 {
   }
 }
 
-.content {
-  width: 80%;
-  margin: auto;
+.main-wrapper {
+  
+  .content {
+    width: 80%;
+    margin: auto;
+  }
 
   .step-number {
     font-weight: 200;
@@ -90,9 +93,12 @@ h1 {
   }
   
   .about {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5em;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5em;
+    }
 
     .icon {
       display: flex;
@@ -205,8 +211,8 @@ h1 {
     }
   }
 
-  .header, .portfolio {
-    padding-top: 5em;
+  .header {
+    padding: 5em 0;
 
     > div {
       display: flex;
@@ -228,6 +234,19 @@ h1 {
   }
 
   .portfolio {
+
+    background: #212123;
+    display: flex;
+    flex: 1;
+    
+    .content {
+      > div {
+        display: flex;
+        align-items: baseline;
+        margin: 64px 0px;
+      }
+    }
+    
 
     .project {
       padding: 11px;
