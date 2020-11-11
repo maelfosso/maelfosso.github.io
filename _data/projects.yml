@@ -13,18 +13,6 @@
   repositories: https://gitlab.com/guitou-daco-tool
   online: https://app.guitou.cm
 
-- name: Earth Diary
-  description: Basic implementation of Facebook web app
-  tools: 
-    - Ruby
-    - Ruby on Rails
-    - PostgreSQL
-    - HTML5
-    - CSS3
-    - Javascript
-  repositories: https://github.com/maelfosso/microverse_ror_final_project
-  online: https://earthdiary.herokuapp.com
-
 - name: Repap
   description: Handle your favorite hotels
   tools:
@@ -51,6 +39,19 @@
     - Docker
     - Docker Compose
   repositories: https://github.com/maelfosso/shorturl-startup-files
+
+- name: Earth Diary
+  description: Basic implementation of Facebook web app
+  tools: 
+    - Ruby
+    - Ruby on Rails
+    - PostgreSQL
+    - HTML5
+    - CSS3
+    - Javascript
+  image: assets/images/earthdiary.png
+  repositories: https://github.com/maelfosso/microverse_ror_final_project
+  online: https://earthdiary.herokuapp.com
 
 - name: Bookstore
   description: 
