@@ -13,6 +13,18 @@
   repositories: https://gitlab.com/guitou-daco-tool
   online: https://app.guitou.cm
 
+- name: ShortURL
+  description: Starting point of a app for shorting URL
+  tools:
+    - Typescript
+    - Vue.Js
+    - Express (NodeJS)
+    - MongoDB
+    - Linux Bash Scripts
+    - Docker
+    - Docker Compose
+  repositories: https://github.com/maelfosso/shorturl-startup-files
+
 - name: Repap
   description: Handle your favorite hotels
   tools:
@@ -27,18 +39,6 @@
     # - type: Back-end
     #   link: https://github.com/maelfosso/repap-api
   online: https://mv-final-repap.herokuapp.com
-
-- name: ShortURL
-  description: Starting point of a app for shorting URL
-  tools:
-    - Typescript
-    - Vue.Js
-    - Express (NodeJS)
-    - MongoDB
-    - Linux Bash Scripts
-    - Docker
-    - Docker Compose
-  repositories: https://github.com/maelfosso/shorturl-startup-files
 
 - name: Earth Diary
   description: Basic implementation of Facebook web app

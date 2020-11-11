@@ -10,3 +10,4 @@ title: Mael FOSSO
 {% include header.html %}
 {% include portfolio.html %}
 {% include about.html %}
+{% include footer.html %}
