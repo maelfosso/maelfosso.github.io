@@ -1,0 +1,53 @@
+<section id="courses" class="courses">
+  <div class="content">
+    <div>
+      <div class="step">
+        <span class="step-number">04</span>
+      </div>
+      <div>
+        <span class="step-title">I did some</span>
+        <h1>Online Courses</h1>
+      </div>
+    </div>
+    <article>
+      {% for data in site.data.courses | sort: 'date' | reversed %}
+      <div class="course">
+        <div>
+          <div class="organization">{{ data.organization }}</div>
+          <div class="name">{{ data.name }}</div>
+        </div>
+        <div>
+          <div>ID : <a target="_blank" alt="{{ data.url }}" href="{{ data.url }}">{{ data.id }}</a></div>
+          <div>Issued Date: {{ data.date }}</div>
+        </div>
+        <!-- <div class="head">
+          <div class="title">{{ data.name }}</div>
+          <div class="tools">
+          {% for tool in data.tools %}
+            <span>{{ tool }}</span>
+          {% endfor %}
+          </div>
+        </div>
+        <div class="details">
+          <div class="screenshots">
+            <img src="{{ data.image }}"/>
+          </div>
+          <div class="description">
+            <div>
+            {% for desc in data.description %}
+              <p>{{ desc }}</p>
+            {% endfor %}
+            </div>
+            <div class="links">
+              {% if data.online %}
+              <a href="{{ data.online }}" target="_blank">See live</a>
+              {% endif %}
+              <a href="{{ data.repositories }}" target="_blank">See sources</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      {% endfor %}
+    </article>
+  </div>
+</section>

@@ -1,44 +1,48 @@
 - name: Guitou
   description: Real-time analysis and statistics from collected data
   tools:
-    - ReactJs
-    - Angular
-    - Express (NodeJS)
-    - Python
-    - MongoDB
     - Docker
     - Docker Compose
+    - Kubernetes
+    - AWS API Gateway
+    - AWS Lambda
+    - Serveless Architecture
+    - React.js
+    - Angular
+    - Express (Node.js)
+    - Python
+    - MongoDB
     - Linux Bash Scripts
     - Let's encrypt, Certbot
   repositories: https://gitlab.com/guitou-daco-tool
   online: https://app.guitou.cm
+  image: assets/images/guitou.png
 
 - name: ShortURL
   description: Starting point of a app for shorting URL
   tools:
     - Typescript
-    - Vue.Js
-    - Express (NodeJS)
+    - Vue.js
+    - Express (Node.js)
     - MongoDB
     - Linux Bash Scripts
     - Docker
     - Docker Compose
   repositories: https://github.com/maelfosso/shorturl-startup-files
+  image: assets/images/rest-api.png
 
 - name: Repap
   description: Handle your favorite hotels
   tools:
-    - React Js
+    - React.js
     - Ruby on Rails
     - Python
     - PostgreSQL
-    - Kubernetes
-  repositories: 
-    # - type: Front-end
-    #   link: https://github.com/maelfosso/repap
-    # - type: Back-end
-    #   link: https://github.com/maelfosso/repap-api
+    - Docker
+    - Heroku
+  repositories: https://github.com/maelfosso/repap
   online: https://mv-final-repap.herokuapp.com
+  image: assets/images/repap.png
 
 - name: Earth Diary
   description: Basic implementation of Facebook web app
